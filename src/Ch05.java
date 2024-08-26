@@ -40,7 +40,7 @@ public class Ch05 {
 		// 한 줄(String)
 		// nextLine()
 		
-//		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		// 일단 외워주세요 :)
 		// Scanner 장치를 생성해 사용할 수 있도록 참조변수 sc 생성 및 연결
 //		System.out.println("-------------------- Scanner 예제 01 ---------------------------");
@@ -85,18 +85,18 @@ public class Ch05 {
 //		System.out.printf("문자열 : %s %s %s\n", s1, s2, s3);
 //		System.out.println();
 
-//		System.out.println("------------------- Scanner 버퍼 비우기 예제 ---------------------------");
-//		System.out.println("수 입력 :");
-//		int num = sc.nextInt();
-//		
-//		sc.nextLine();		// 개행 문자를 제거 == 스트림 버퍼를 초기화(비우는 과정) 
-//		
-//		System.out.println("문자열 입력(띄워쓰기 포함 문자열) : ");
-//		String str2 = sc.nextLine();				// 문자열 입력받기 기능 함수, 띄워쓰기도 포함함.
-//		
-//		System.out.println("입력된 문자열 : " + str2);
-//		
-//		
+		System.out.println("------------------- Scanner 버퍼 비우기 예제 ---------------------------");
+		System.out.println("수 입력 :");
+		int num = sc.nextInt();
+		
+		sc.nextLine();		// 개행 문자를 제거 == 스트림 버퍼를 초기화(비우는 과정) 
+		
+		System.out.println("문자열 입력(띄워쓰기 포함 문자열) : ");
+		String str2 = sc.nextLine();				// 문자열 입력받기 기능 함수, 띄워쓰기도 포함함.
+		
+		System.out.println("입력된 문자열 : " + str2);
+		
+		
 		
 		
 //		## 입출력 실습 예제 ##
@@ -106,6 +106,27 @@ public class Ch05 {
 		// 직사각형의 둘레와 넓이를 구하는 프로그램을 구현해보세요
 		// 직사각형의 둘레 = (가로길이 + 세로길이) * 2
 		// 직사각형의 넓이 = 가로길이 * 세로길이
+
+		
+		
+//		System.out.println("가로 길이를 입력하세요 >>> ");
+//		int num = sc.nextInt();
+//		System.out.println("세로 길이를 입력하세요 >>> ");
+//		int num1 = sc.nextInt();
+//		int dul = (num + num1) * 2;
+//		int siz = num * num1;
+//		System.out.println("직사각형의 둘레 = " + dul);
+//		System.out.println("직사각형의 넓이 = " + siz);
+		System.out.println();
+		
+//		============================== 실행 결과 ===================================
+//		가로 길이를 입력하세요 >>> 
+//		3
+//		세로 길이를 입력하세요 >>> 
+//		5
+//		직사각형의 둘레 = 16
+//		직사각형의 넓이 = 15		
+		
 		
 		
 //      문제 02)
@@ -115,55 +136,6 @@ public class Ch05 {
       //홍길동 님의 주소를 입력하세요? 대구광역시 중구 중앙대로 124
       // 홍길동 님의 나이는 24세 주소는 대구광역시 중구 중앙대로 124 입니다
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-//		Scanner sc = new Scanner(System.in);
-//		System.out.print("이름을 입력하세요?");
-//		String name = sc.next();
-//		System.out.print(name+"님의 나이를 입력하세요?");
-//		int age = sc.nextInt();
-//		System.out.print(name+"님의 주소를 입력하세요?");
-//		sc.nextLine();
-//		String address = sc.nextLine();
-//		System.out.println(name+"님의 나이는 "+age+"세 주소는 "+address+"입니다.");
-		
-		
-		
-		
-		
-		/*
-		 * 나이 입력 받기 (nextInt() 사용)
-입력 버퍼에서 남은 줄바꿈 문자 처리하기 (nextLine()으로 소비)
-주소 입력 받기 (nextLine() 사용)
-		 */
-		
-		
-		
-		
-		
-		
-		
-//	Scanner sc = new Scanner(System.in);	
-//	System.out.print("이름을 입력하세요? ");
-//	String name = sc.next();
-//	System.out.printf("%s님의 나이를 입력하세요? ", name);
-//	int age = sc.nextInt();
-//	System.out.printf("%s님의 주소를 입력하세요? ", name);
-//	sc.nextLine();
-//	String address = sc.nextLine();
-//	System.out.printf("%s님의 나이는 %d세 주소는 %s입니다.", name, age, address);
-	
-	
-
 	}
 
 }
